@@ -447,23 +447,23 @@ b, strong {
 }
 
 .contact-info {
-  background: #474559;
+  background: #071E3D;
   border-radius: 0 0 3px 3px;
   position: relative;
   bottom: 8px;
 }
 .contact-info p, .contact-info a {
-  color: #120136;
+  color: #ffffff;
 }
 
 .social-links .uil {
-  color: #f7f3f3;
+  color: #21E6C1;
   font-size: 20px;
   display: block;
   margin: 5px 0;
 }
 .social-links .uil:hover {
-  color: #ffc200;
+  color: #21E6C1;
 }
 
 @media (min-width: 1270px) {
