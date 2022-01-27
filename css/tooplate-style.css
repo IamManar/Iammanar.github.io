@@ -93,10 +93,10 @@ b, strong {
   transition: all 0.4s ease;
 }
 .custom-btn:hover {
-  color: #ffc200;
+  color: #5F85DB;
 }
 .custom-btn.custom-btn-bg {
-  background: #120136;
+  background: #5F85DB;
   color: #ffffff;
 }
 .custom-btn.custom-btn-bg:hover {
