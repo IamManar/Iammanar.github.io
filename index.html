@@ -12,8 +12,26 @@
 </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style>
+    @-webkit-viewport { width: device-width; }
+    @-moz-viewport { width: device-width; }
+    @-ms-viewport { width: device-width; }
+    @-o-viewport { width: device-width; }
+    @viewport { width: device-width; }
+</style>
+<script>
+    // Important for windows phone 8
+    if (navigator.userAgent.match(/IEMobile\/10\.0/))
+    {
+        var msViewportStyle = document.createElement("style");
+        msViewportStyle.appendChild(document.createTextNode("@-ms-viewport{width:auto!important}"));
+        document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+    }
+</script>
     <meta name="description" content="">
     <meta name="author" content="">
+    
+    <link rel="icon" href="images/undraw/IMG_0398.png">
     
 
     <title>Manar's Portfolio</title>
