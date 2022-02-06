@@ -12,7 +12,10 @@ body {
   font-family: "Maven Pro", sans-serif;
   padding-top: 70px;
 }
-
+.container{
+width: 100%;
+max-width: 800px;
+}
 .full-screen {
   padding: 8rem 0;
   background: #F1F6F9;
