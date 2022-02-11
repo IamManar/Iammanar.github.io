@@ -497,7 +497,16 @@ b, strong {
     background: #ffffff;
     text-align: center;
     padding-bottom: 20px;
+  } 
+  body {
+    			
+   overflow-x: hidden;
   }
+  * {
+    			
+   overflow-x: hidden;
+  }
+      
 
 
 
@@ -530,7 +539,16 @@ b, strong {
     display: block;
     margin: 10px 0 0 0;
   }
+   body {
+    			
+   overflow-x: hidden;
+  }
+  * {
+    			
+   overflow-x: hidden;
+  }
 }
+
 @media (max-width: 320px) {
   .animated-text {
     margin-top: 0;
@@ -555,6 +573,14 @@ b, strong {
   .social-links li {
     display: inline-block;
     vertical-align: top;
+  }
+  body {
+    			
+   overflow-x: hidden;
+  }
+  * {
+    			
+   overflow-x: hidden;
   }
 }
 
@@ -664,6 +690,14 @@ b, strong {
         max-width: 100%; }
 }
 
+  body {
+    			
+   overflow-x: hidden;
+  }
+  * {
+    			
+   overflow-x: hidden;
+  }
 .inner {
   position: relative;
   width: 90%;
