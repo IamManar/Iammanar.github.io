@@ -561,10 +561,7 @@ b, strong {
     box-sizing: border-box;
     margin: 0;
 }
-.container{
-    max-width: 1140px;
-    margin: auto;
-}
+
 .row{
     display: flex;
     flex-wrap: wrap;
