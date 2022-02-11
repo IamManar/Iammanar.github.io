@@ -127,7 +127,7 @@ b, strong {
   color: #21E6C1;
 }
 .animated-item {
-  width: 3000px;
+  width: auto;
   font-size: 38px;
   line-height: inherit;
   display: block;
