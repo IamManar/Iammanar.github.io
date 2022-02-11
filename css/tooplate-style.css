@@ -146,7 +146,7 @@ b, strong {
   animation-delay: 4s;
 }
 .animated-item3 {
-  width: 3000px;
+  width: auto;
   height: 3000px;
   font-size: 38px;
   line-height: 20px;
