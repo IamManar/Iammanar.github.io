@@ -129,6 +129,7 @@ b, strong {
 .animated-item {
   width: 3000px;
   font-size: 38px;
+  font-size: 2.5vw;
   line-height: inherit;
   display: block;
   opacity: 0;
