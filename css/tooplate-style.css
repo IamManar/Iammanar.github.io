@@ -332,11 +332,13 @@ b, strong {
 
 
 .icon {
-  padding: 0 3em;
+  padding: 0 1em;
   text-align: center;
-  display: inline;
+  display: inline-block;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
+
 }
 
 
@@ -350,7 +352,6 @@ b, strong {
   margin-right: -5%;
 
 
-
 }
 svg {
   height: 48px;
@@ -358,9 +359,6 @@ svg {
   margin: auto;
   text-align: center;
   fill: #21E6C1;
-  display: block;
-  overflow: hidden;
-
 }
 .TT {
  font-weigh: bold;
