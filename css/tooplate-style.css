@@ -303,22 +303,15 @@ b, strong {
 .Aboutme {
   display: inline-block;
   padding: 10px;
-  text-align: center;
   padding: 2em;
   margin-left: auto;
   margin-right: auto;
-
-
-}
-
-
-.icon {
-    flex: 0 0 33.33%;
-    max-width: 33.33%;
-    position: relative;
-    padding: 8px;
+  line-height: 1.9;
+  text-align:left;
 
 }
+
+
 
 
 .linkedin  {
@@ -336,12 +329,27 @@ b, strong {
 
 }
 
+
+
+.icon {
+  padding: 0 1em;
+  text-align: center;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+
 .Skills-item {
 
+  padding: 2em;
   display: inline-block;
-  padding: 10px;
-  text-align: center;
-  padding: 100px 7px;
+  align-items: center;
+  justify-content: center;
+  margin-right: -5%;
+
 
 
 
@@ -352,14 +360,15 @@ svg {
   margin: 0 2em;
   text-align: center;
   fill: #21E6C1;
-  position:relative
 }
 .TT {
  font-weigh: bold;
  font-size: 18px;
+ text-align: center;
 }
 .TTt {
  font-size: 11px;
+ text-align: center;
 }
 
 
