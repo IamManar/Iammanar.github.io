@@ -337,7 +337,11 @@ b, strong {
 
 }
 
+.Skills-item {
 
+  padding: 0 2em;
+
+}
 svg {
   height: 48px;
   width: 40px;
