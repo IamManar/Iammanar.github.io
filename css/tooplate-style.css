@@ -313,11 +313,10 @@ b, strong {
 
 
 .icon {
-  display: inline-block;
-  padding: 10px;
-  text-align: center;
-  padding: 2em;
-
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    position: relative;
+    padding: 8px;
 
 }
 
