@@ -717,8 +717,10 @@ svg {
 }
 
 .inner:hover .image {
-  opacity: 0.7;
-  color: #071E3D;
+  opacity: 0.2; /* Fade much more so the text is highly readable */
+  transform: scale(1.02); /* Slight, elegant zoom effect */
+}
+
 
 }
 
