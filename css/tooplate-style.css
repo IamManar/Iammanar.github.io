@@ -729,7 +729,9 @@ svg {
 }
 
 .text {
-  background-color: #071E3D;
-  color: #21E6C1;
-  font-size: 14px;
-  font-weigh
+  background-color: transparent; /* Remove the heavy box */
+  color: #2C3E50; /* Dark text on the faded image */
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+}
