@@ -63,9 +63,11 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: bold;
-  letter-spacing: -1px;
+  font-weight: 600; /* Slightly less heavy than 'bold' */
+  letter-spacing: 0px; 
 }
+
+
 
 h1 {
   color: #212121;
@@ -94,16 +96,17 @@ b, strong {
 }
 
 .custom-btn {
-  background: #071E3D;
+  background: #2C3E50;
   color: #ffffff;
-  font-weight: bold;
-  border-radius: 50px;
-  padding: 13px 29px;
+  font-weight: 600;
+  border-radius: 4px; /* Sharp corners are more formal than heavy pills */
+  padding: 12px 24px;
   font-size: 14px;
-  line-height: normal;
-  overflow: hidden;
-  transition: all 0.4s ease;
+  text-transform: uppercase; /* Adds a corporate feel */
+  letter-spacing: 1px;
+  /* ... keeping your transitions ... */
 }
+
 .custom-btn:hover {
   color: #14274E;
 }
