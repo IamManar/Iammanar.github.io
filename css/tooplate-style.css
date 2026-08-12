@@ -111,8 +111,10 @@ b, strong {
   color: #14274E;
 }
 .custom-btn.custom-btn-bg {
-  background: #1B4332;
-  color: #071E3D;
+  background: #2D6A4F; /* Using the lighter Ivy Green so it doesn't look black */
+  color: #ffffff;
+}
+
 }
 .custom-btn.custom-btn-bg:hover {
   color: #ffffff !important;
@@ -722,7 +724,7 @@ svg {
 }
 
 
-}
+
 
 .inner:hover .middle {
   opacity: 1;
