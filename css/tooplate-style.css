@@ -467,7 +467,7 @@ svg {
 }
 
 .contact-info {
-  background: #071E3D;
+  background: #1B4332;
   border-radius: 0 0 3px 3px;
   position: relative;
   bottom: 8px;
@@ -477,13 +477,13 @@ svg {
 }
 
 .social-links .uil {
-  color: #1B4332;
+  color: #ffffff;
   font-size: 20px;
   display: block;
   margin: 5px 0;
 }
 .social-links .uil:hover {
-  color: #1B4332;
+  color: #ffffff;
 }
 
 @media (min-width: 1270px) {
