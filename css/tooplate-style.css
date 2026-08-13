@@ -350,33 +350,138 @@ b, strong {
 
 
 
-.Skills-item {
+/* =========================
+   SKILLS SECTION
+   ========================= */
 
-  padding: 2em;
-  display: inline-block;
+.Skills {
+  background: #f8f9fa;
+  padding: 90px 0;
+}
+
+.Skills .section-title {
+  margin-bottom: 45px;
+}
+
+.Skills .section-title h2 {
+  color: #071E3D;
+  margin-bottom: 15px;
+}
+
+/* Skill card */
+.Skills-item {
+  background: #ffffff;
+  width: 100%;
+  min-height: 260px;
+  padding: 32px 25px;
+  margin: 0 0 30px 0;
+  border: 1px solid #e9ecef;
+  border-radius: 10px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  box-shadow: 0 5px 20px rgba(7, 30, 61, 0.06);
+
+  transition: all 0.3s ease;
+}
+
+/* Hover */
+.Skills-item:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 12px 30px rgba(7, 30, 61, 0.12);
+  border-color: #071E3D;
+}
+
+/* Icons */
+.Skills-item .icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+
+  display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: -5%;
 
-
+  background: #f1f4f8;
+  border-radius: 50%;
 }
-svg {
-  height: 48px;
-  width: 40px;
-  margin: auto;
+
+.Skills-item svg {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  fill: #071E3D;
+}
+
+/* Skill title */
+.Skills-item .TT {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.4;
+  color: #071E3D;
   text-align: center;
-  fill: #1B4332;
-}
-.TT {
- font-weigh: bold;
- font-size: 18px;
- text-align: center;
-}
-.TTt {
- font-size: 11px;
- text-align: center;
+  margin-bottom: 12px;
 }
 
+/* Skill description */
+.Skills-item .TTt {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #666666;
+  text-align: center;
+  max-width: 320px;
+}
+
+/* Skill tags */
+.skill-tags {
+  margin-top: 18px;
+}
+
+.skill-tags span {
+  display: inline-block;
+  background: #071E3D;
+  color: #ffffff;
+  font-size: 11px;
+  padding: 5px 9px;
+  margin: 3px;
+  border-radius: 15px;
+}
+/* =========================
+   SKILLS RESPONSIVE
+   ========================= */
+
+@media (max-width: 991px) {
+  .Skills {
+    padding: 70px 0;
+  }
+
+  .Skills-item {
+    min-height: 250px;
+  }
+}
+
+@media (max-width: 767px) {
+  .Skills {
+    padding: 60px 0;
+  }
+
+  .Skills-item {
+    min-height: auto;
+    padding: 30px 20px;
+  }
+
+  .Skills-item .TT {
+    font-size: 17px;
+  }
+
+  .Skills-item .TTt {
+    font-size: 13px;
+  }
+}
 
 .owl-carousel .owl-nav span {
   display: none;
