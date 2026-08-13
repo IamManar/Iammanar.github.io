@@ -126,9 +126,9 @@ b, strong {
 
 }
 .custom-btn.custom-btn-bg:hover {
+  background: #123B66;
   color: #ffffff !important;
 }
-
 .animated {
   position: relative;
 }
