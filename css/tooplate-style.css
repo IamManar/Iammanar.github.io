@@ -13,7 +13,16 @@ body {
   padding-top: 70px;
   color: #333333; /* Softer than stark black for easier reading */
 }
-
+:root {
+  --navy: #071E3D;
+  --blue: #123B66;
+  --green: #2D6A4F;
+  --light-bg: #F7F9FC;
+  --border: #E3E8EF;
+  --text: #333333;
+  --muted: #667085;
+  --white: #FFFFFF;
+}
 
 .full-screen {
   padding: 8rem 0;
