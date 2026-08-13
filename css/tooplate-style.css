@@ -342,7 +342,224 @@ b, strong {
 
 }
 
+/* =========================
+   EXPERIENCE SECTION
+========================= */
 
+.experience {
+  background: #ffffff;
+  padding: 90px 0;
+}
+
+.experience .section-title {
+  margin-bottom: 50px;
+}
+
+.experience .section-title h2 {
+  color: #071E3D;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.experience .section-title p {
+  color: #667085;
+  font-size: 15px;
+  margin: 0;
+}
+
+
+/* Experience list */
+
+.experience-list {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+
+/* Experience card */
+
+.experience-item {
+  display: flex;
+  gap: 25px;
+
+  background: #F7F9FC;
+  border: 1px solid #E3E8EF;
+  border-radius: 12px;
+
+  padding: 30px;
+  margin-bottom: 25px;
+
+  transition: all 0.3s ease;
+}
+
+.experience-item:hover {
+  transform: translateY(-4px);
+  border-color: #123B66;
+  box-shadow: 0 10px 30px rgba(7, 30, 61, 0.08);
+}
+
+
+/* Icon */
+
+.experience-icon {
+  width: 55px;
+  height: 55px;
+
+  min-width: 55px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #EEF3F8;
+  border-radius: 50%;
+}
+
+.experience-icon i {
+  color: #071E3D;
+  font-size: 25px;
+}
+
+
+/* Content */
+
+.experience-content {
+  flex: 1;
+}
+
+.experience-date {
+  display: inline-block;
+
+  color: #123B66;
+  font-size: 12px;
+  font-weight: 700;
+
+  margin-bottom: 7px;
+}
+
+.experience-content h3 {
+  color: #071E3D;
+  font-size: 21px;
+  font-weight: 700;
+
+  margin: 0 0 4px;
+}
+
+.experience-content h4 {
+  color: #667085;
+  font-size: 14px;
+  font-weight: 500;
+
+  margin: 0 0 15px;
+}
+
+
+/* Description */
+
+.experience-content ul {
+  margin: 0 0 15px;
+  padding-left: 18px;
+}
+
+.experience-content ul li {
+  list-style: disc;
+
+  color: #667085;
+  font-size: 14px;
+  line-height: 1.7;
+
+  margin-bottom: 5px;
+}
+
+
+/* Tags */
+
+.experience-tags {
+  margin-top: 15px;
+}
+
+.experience-tags span {
+  display: inline-block;
+
+  background: #EEF3F8;
+  color: #071E3D;
+
+  font-size: 10px;
+  font-weight: 600;
+
+  padding: 5px 9px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+
+  border-radius: 4px;
+}
+
+
+/* =========================
+   EXPERIENCE MOBILE
+========================= */
+
+@media (max-width: 767px) {
+
+  .experience {
+    padding: 65px 0;
+  }
+
+  .experience .section-title h2 {
+    font-size: 30px;
+  }
+
+  .experience .section-title p {
+    font-size: 14px;
+  }
+
+  .experience-item {
+    gap: 15px;
+    padding: 22px 18px;
+  }
+
+  .experience-icon {
+    width: 45px;
+    height: 45px;
+    min-width: 45px;
+  }
+
+  .experience-icon i {
+    font-size: 21px;
+  }
+
+  .experience-content h3 {
+    font-size: 18px;
+  }
+
+  .experience-content h4 {
+    font-size: 13px;
+  }
+
+  .experience-content ul li {
+    font-size: 13px;
+  }
+
+  .experience-date {
+    font-size: 11px;
+  }
+}
+
+
+/* Small phones */
+
+@media (max-width: 400px) {
+
+  .experience-item {
+    display: block;
+  }
+
+  .experience-icon {
+    margin-bottom: 15px;
+  }
+
+}
 
 /* =========================
    SKILLS SECTION
