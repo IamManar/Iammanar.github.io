@@ -147,9 +147,9 @@ b, strong {
   color: #123B66;
 }
 
-.animated-item  {
-  font-size: 38px;
-  line-height: inherit;
+.animated-item {
+  font-size: 30px;
+  line-height: 1.3;
   display: block;
   opacity: 0;
   overflow: hidden;
