@@ -1349,3 +1349,10 @@ b, strong {
   font-weight: bold;
   padding: 10px;
 }
+@media (max-width: 767px) {
+  .animated-item,
+  .animated-item3 {
+    font-size: 20px !important;
+    white-space: nowrap;
+  }
+}
