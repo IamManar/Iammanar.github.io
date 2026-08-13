@@ -53,7 +53,7 @@ a {
   transition: all 0.4s ease;
 }
 a:hover {
-  color: #1B4332 !important;
+  color: #071E3D !important;
 }
 
 .navbar-brand .uil {
@@ -61,7 +61,7 @@ a:hover {
   color: #071E3D;
 }
 .navbar-brand .uil:hover {
-  color: #1B4332;
+  color: #071E3D;
 }
 
 p {
