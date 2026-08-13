@@ -361,10 +361,10 @@ b, strong {
 
 /* =========================
    SKILLS SECTION
-   ========================= */
+========================= */
 
 .Skills {
-  background: #f8f9fa;
+  background: #F7F9FC;
   padding: 90px 0;
 }
 
@@ -378,86 +378,100 @@ b, strong {
 }
 
 /* Skill card */
+
 .Skills-item {
-  background: #ffffff;
+  background: #FFFFFF;
   width: 100%;
-  min-height: 260px;
-  padding: 32px 25px;
+  min-height: 285px;
+  padding: 32px 28px;
   margin: 0 0 30px 0;
-  border: 1px solid #e9ecef;
-  border-radius: 10px;
+
+  border: 1px solid #E3E8EF;
+  border-radius: 12px;
+
   text-align: center;
 
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
 
-  box-shadow: 0 5px 20px rgba(7, 30, 61, 0.06);
+  box-shadow: 0 5px 20px rgba(7, 30, 61, 0.05);
 
-  transition: all 0.3s ease;
+  transition: transform 0.3s ease,
+              box-shadow 0.3s ease,
+              border-color 0.3s ease;
 }
 
-/* Hover */
 .Skills-item:hover {
-  transform: translateY(-7px);
-  box-shadow: 0 12px 30px rgba(7, 30, 61, 0.12);
-  border-color: #071E3D;
+  transform: translateY(-6px);
+  box-shadow: 0 14px 35px rgba(7, 30, 61, 0.10);
+  border-color: #123B66;
 }
 
-/* Icons */
+/* Icon */
+
 .Skills-item .icon {
-  width: 60px;
-  height: 60px;
+  width: 58px;
+  height: 58px;
+
   margin-bottom: 20px;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
-  background: #f1f4f8;
+  background: #EEF3F8;
   border-radius: 50%;
 }
 
-.Skills-item svg {
-  width: 30px;
-  height: 30px;
-  margin: 0;
-  fill: #071E3D;
+.Skills-item .icon i {
+  color: #071E3D;
+  font-size: 28px;
 }
 
-/* Skill title */
+/* Title */
+
 .Skills-item .TT {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.4;
+
   color: #071E3D;
-  text-align: center;
+
   margin-bottom: 12px;
 }
 
-/* Skill description */
+/* Description */
+
 .Skills-item .TTt {
   font-size: 14px;
   line-height: 1.7;
-  color: #666666;
-  text-align: center;
+
+  color: #667085;
+
   max-width: 320px;
 }
 
-/* Skill tags */
+/* Tags */
+
 .skill-tags {
-  margin-top: 18px;
+  margin-top: auto;
+  padding-top: 18px;
 }
 
 .skill-tags span {
   display: inline-block;
-  background: #071E3D;
-  color: #ffffff;
+
+  background: #EEF3F8;
+  color: #071E3D;
+
   font-size: 11px;
-  padding: 5px 9px;
+  font-weight: 600;
+
+  padding: 5px 10px;
   margin: 3px;
-  border-radius: 15px;
+
+  border-radius: 5px;
 }
 /* =========================
    SKILLS RESPONSIVE
