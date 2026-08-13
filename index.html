@@ -492,72 +492,156 @@ https://www.tooplate.com/view/2115-marvel
 
 
 
-    <!-- CONTACT -->
-    <section class="contact py-5" id="Contact">
-      <div class="container">
-        <div class="row">
+  <!-- CONTACT -->
+<section class="contact py-5" id="Contact">
+    <div class="container">
 
-<div class="col-lg-5 mr-lg-5 col-12">
+        <div class="row align-items-center">
 
-    <div class="contact-info py-4 px-lg-4">
+            <!-- Contact Information -->
+            <div class="col-lg-5 col-md-12 col-12 mb-5 mb-lg-0">
 
-        <h3 class="mb-3 text-white">Let's Work Together</h3>
+                <div class="contact-info">
 
-        <p class="text-white">
-            Interested in data analytics, financial modeling,
-            strategic finance, or business intelligence?
-            Feel free to reach out.
-        </p>
+                    <span class="contact-label">GET IN TOUCH</span>
 
-        <p>
-            <a href="mailto:manarsaofficial@gmail.com">
-                manarsaofficial@gmail.com
-            </a>
-        </p>
+                    <h2>Let's Work Together</h2>
 
-        <ul class="social-links mt-4">
-            <!-- LinkedIn -->
-            <!-- GitHub -->
-        </ul>
+                    <p>
+                        Interested in data analytics, strategic finance,
+                        financial modeling, or business intelligence?
+                        I'd be happy to connect.
+                    </p>
 
-    </div>
+                    <div class="contact-detail">
+                        <i class="uil uil-envelope"></i>
+                        <div>
+                            <small>Email</small>
+                            <a href="mailto:manarsaofficial@gmail.com">
+                                manarsaofficial@gmail.com
+                            </a>
+                        </div>
+                    </div>
 
-</div>
-          
+                    <div class="contact-detail">
+                        <i class="uil uil-linkedin"></i>
+                        <div>
+                            <small>LinkedIn</small>
+                            <a href="https://www.linkedin.com/in/-manar-" target="_blank" rel="noopener">
+                                LinkedIn Profile
+                            </a>
+                        </div>
+                    </div>
 
-          <div class="col-lg-6 col-12">
-            <div class="contact-form">
-              <h2 class="mb-4">Intersted in working together? Reach Out!</h2>
-              <form action="https://formsubmit.co/manarsaofficial@gmail.com" method="POST" />
-              <input type="hidden" name="_captcha" value="false">
-              <input type="hidden" name="_autoresponse" value="your custom message">
+                    <div class="contact-detail">
+                        <i class="uil uil-github"></i>
+                        <div>
+                            <small>GitHub</small>
+                            <a href="https://github.com/IamManar" target="_blank" rel="noopener">
+                                GitHub Profile
+                            </a>
+                        </div>
+                    </div>
 
-
-              <form action="" method="get">
-                <div class="row">
-                  <div class="col-lg-6 col-12">
-                    <input type="text" class="form-control" name="name" placeholder="Your Name" id="name">
-                  </div>
-
-                  <div class="col-lg-6 col-12">
-                    <input type="email" class="form-control" name="email" placeholder="Email" id="email">
-                  </div>
-
-                  <div class="col-12">
-                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message"></textarea>
-                  </div>
-
-                  <div class="ml-lg-auto col-lg-5 col-12">
-                    <input type="submit" class="form-control submit-btn" value="Send Button">
-                  </div>
                 </div>
-              </form>
+
             </div>
-          </div>
+
+
+            <!-- Contact Form -->
+            <div class="col-lg-6 offset-lg-1 col-md-12 col-12">
+
+                <div class="contact-form">
+
+                    <h3>Send Me a Message</h3>
+
+                    <p class="form-description">
+                        Have a project, opportunity, or question?
+                        Send me a message and I'll get back to you.
+                    </p>
+
+                    <form
+                        action="https://formsubmit.co/manarsaofficial@gmail.com"
+                        method="POST"
+                    >
+
+                        <!-- FormSubmit settings -->
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_subject" value="New Portfolio Contact">
+                        <input type="hidden" name="_template" value="table">
+
+                        <!-- Prevent FormSubmit from redirecting to its default page -->
+                        <input
+                            type="hidden"
+                            name="_next"
+                            value="https://YOUR-DOMAIN.com/#Contact"
+                        >
+
+                        <div class="row">
+
+                            <div class="col-lg-6 col-md-6 col-12">
+                                <div class="form-group">
+                                    <label for="name">Name</label>
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        name="name"
+                                        id="name"
+                                        placeholder="Your Name"
+                                        required
+                                    >
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-12">
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input
+                                        type="email"
+                                        class="form-control"
+                                        name="email"
+                                        id="email"
+                                        placeholder="Your Email"
+                                        required
+                                    >
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label for="message">Message</label>
+                                    <textarea
+                                        name="message"
+                                        id="message"
+                                        rows="6"
+                                        class="form-control"
+                                        placeholder="How can I help?"
+                                        required
+                                    ></textarea>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <button
+                                    type="submit"
+                                    class="submit-btn"
+                                >
+                                    Send Message
+                                    <i class="uil uil-arrow-right"></i>
+                                </button>
+                            </div>
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
 
         </div>
-      </div>
-    </section>
+    </div>
+</section>     
 
     <!-- FOOTER -->
      <footer class="footer py-5">
